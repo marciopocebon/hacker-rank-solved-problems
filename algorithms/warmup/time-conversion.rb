@@ -11,7 +11,7 @@ split_time = time.split(":")
 hour = split_time[0].to_i
 
 if time.include?("PM")
-  hour = (hour+12) % 24 unless hour == 12
+  hour = hour+12 unless hour == 12
 elsif time.include?("AM")
   if hour == 12
     hour = "00"
