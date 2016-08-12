@@ -7,8 +7,6 @@
 # 1 <= k <= 100
 # 1 <= ai <= 100
 
-#!/bin/ruby
-
 n, k = gets.strip.split(' ')
 n = n.to_i
 k = k.to_i
